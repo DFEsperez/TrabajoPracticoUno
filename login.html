@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./imagenes/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <!--DIV MENU-->
+        <div class="menu container">
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="Icono">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./quienessomos.html">Quienes Somos</a></li>
+                    <li><a href="./productos.html">Productos</a></li>
+                    <li><a href="./login.html">Log In</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form action="" method="POST" id="form">
+        <div class="form">
+            <h1>Registro</h1>
+            <div class="grupo">
+                <input type="text" name="" id="name" required><span class="barra"></span>
+                <label for="">Nombre</label>
+            </div>
+            <div class="grupo">
+                <input type="email" name="" id="email" required><span class="barra"></span>
+                <label for="">Email</label>
+            </div>
+            <div class="grupo">
+                <input type="password" name="" id="password" required><span class="barra"></span>
+                <label for="">Password</label>
+            </div>
+
+            <button type="submit">Suscribirte</button>
+            <p class="warnings" id="warnings"></p>
+        </div>
+    </form>
+    <script src="js/mainlogin.js"></script>
+</body>
+
+</html>
